@@ -1,0 +1,66 @@
+body {
+  background: #1a1a1a;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&display=swap');
+
+/* Template */
+
+.template_body {
+  padding: 20px 30px;
+  margin: 0 auto;
+  background: #191919;
+  color: #fff;
+}
+
+.titulo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5em;
+}
+
+.barra {
+  background: #fff;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 10px 0px;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+.texto {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+/* Sobreescrita */
+
+.codebox {
+  width: 100%;
+}
+
+.codebox .spoiler dt {
+  background: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px 0px;
+}
+
+.codebox .spoiler dt span.genmed {
+  color: #000;
+}
+
+dd.spoiler_closed {
+  display: none;
+}
+
+.spoiler_content {
+  background: #fff;
+  color: #000;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  text-align: justify;
+}
