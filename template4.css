@@ -10,13 +10,18 @@
 .titulo {
   font-family: 'Amatic SC', cursive;
   font-size: 2.5em;
+  background: url('https://i.imgur.com/U27yBkN.gif');
+  height: 200px;
+  background-position: bottom;
+  text-align: center;
+  line-height: 200px;
 }
 
 .barra {
   background: #fff;
   width: 100%;
   padding: 5px 0px;
-  margin: 10px 0px;
+  margin: 0px 0px 10px 0px;
   color: #000;
   text-align: center;
   font-family: 'Roboto', sans-serif;
