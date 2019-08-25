@@ -36,6 +36,7 @@
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
+  border-radius: 20px;
 }
 
 .texto {
@@ -54,11 +55,20 @@
   margin-bottom: 10px;
 }
 
+.codebox dd {
+  background-color: none!important;
+}
+
 .codebox.spoiler dt {
   background: #fff;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   padding: 3px 0px;
+  border-radius: 20px;
+}
+
+.codebox.spoiler dd {
+  background-color: none!important;
 }
 
 .codebox.spoiler dt span.genmed {
@@ -76,9 +86,11 @@ dd.spoiler_closed {
   color: #000;
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
-  padding: 5px;
+  padding: 15px 20px 20px 20px;
   text-align: justify;
   background-image: none!important;
+  margin-top: -12px;
+  border-radius: 0 0 20px 20px;
 }
 /* Atributos e Informação da personagem */
 
