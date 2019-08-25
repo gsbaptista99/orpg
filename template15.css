@@ -56,7 +56,7 @@
 }
 
 .codebox dd {
-  background-color: none!important;
+  background: none;
 }
 
 .codebox.spoiler dt {
