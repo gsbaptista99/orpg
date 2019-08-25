@@ -1,0 +1,174 @@
+/* Template */
+
+.template_body {
+  padding: 20px 30px;
+  margin: 0 auto;
+  background: #191919;
+  color: #fff;
+  width: 500px;
+}
+
+.template_body:after {
+  content: 'code por Jin Woo';
+  display: block;
+  font-size: 8px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5em;
+  background: url('https://i.imgur.com/U27yBkN.gif');
+  height: 200px;
+  background-position: bottom;
+  text-align: center;
+  line-height: 200px;
+}
+
+.barra {
+  background: #fff;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 0px 0px 10px 0px;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+.texto {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+/* Sobreescrita */
+
+.codebox {
+  width: 100%;
+}
+
+.codebox.spoiler {
+  margin-bottom: 10px;
+}
+
+.codebox.spoiler dt {
+  background: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px 0px;
+}
+
+.codebox.spoiler dt span.genmed {
+  color: #000;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+}
+
+dd.spoiler_closed {
+  display: none;
+}
+
+.spoiler_content {
+  background: #fff;
+  color: #000;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  text-align: justify;
+}
+/* Atributos e Informação da personagem */
+
+.infoPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.avatarCarta {
+    background: url('https://i.imgur.com/PUFEtCc.jpg') no-repeat;
+    border-radius: 100%;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.atributos {
+    width: 270px;
+}
+
+.atributosLista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.atributosLista li {
+    background: #b785b7;
+    color: #fff;
+    width: 120px;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+}
+
+.atributosLista li:nth-child(2n+1) {
+    background-color: #945e94;
+}
+
+.extras {
+    margin: 10px auto 0 auto;
+    width: 83%;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* listas extra */
+
+.e_atributos ul {
+    list-style: none;
+    width: 376px;
+    margin: 5px auto 0 auto;
+    padding: 0;
+}
+
+.e_atributos ul li {
+    color: #000;
+    width: 80px;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+}
+
+.e_atributos  ul:after, .e_atributos  ul:before {
+  content: " ";
+  display: table;
+}
+
+.e_atributos  ul:after {
+    clear: both;
+}
+
+/* Cores extras */
+
+.e_pericias ul li {
+    background: #c6c6c6;
+}
+
+.e_pericias ul li:nth-child(2n) {
+    background: #969696;
+}
