@@ -8,6 +8,13 @@
   width: 500px;
 }
 
+.template_body:after {
+  content: 'code por Jin Woo';
+  display: block;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
 .titulo {
   font-family: 'Amatic SC', cursive;
   font-size: 2.5em;
