@@ -78,6 +78,7 @@ dd.spoiler_closed {
   font-family: 'Roboto', sans-serif;
   padding: 5px;
   text-align: justify;
+  background: none!important;
 }
 /* Atributos e Informação da personagem */
 
@@ -193,7 +194,7 @@ dd.spoiler_closed {
     float: left;
 }
 
-.objetivos_body .objetivos .cheked {
+.objetivos_body .objetivos .checked {
     background-color: rgba(0, 0, 0, 0.9);
     border: 2px solid rgba(12, 11, 11, 0.3);
     color: #ffffff;
