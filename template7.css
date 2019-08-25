@@ -11,7 +11,8 @@
 .template_body:after {
   content: 'code por Jin Woo';
   display: block;
-  font-size: 10px;
+  font-size: 8px;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
