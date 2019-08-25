@@ -78,7 +78,7 @@ dd.spoiler_closed {
   font-family: 'Roboto', sans-serif;
   padding: 5px;
   text-align: justify;
-  background: none!important;
+  background-image: none!important;
 }
 /* Atributos e Informação da personagem */
 
