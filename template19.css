@@ -6,6 +6,8 @@
   background: #191919;
   color: #fff;
   width: 500px;
+  border-left: 3px solid rgba(255,255,255,.2);
+  border-right: 3px solid rgba(255,255,255,.2);
 }
 
 .template_body:after {
@@ -46,19 +48,19 @@
 
 /* Sobreescrita */
 
-.codebox {
+.template_body.codebox {
   width: 100%;
 }
 
-.codebox.spoiler {
+.template_body.codebox.spoiler {
   margin-bottom: 10px;
 }
 
-.codebox dd {
+.template_body.codebox dd {
   background: none;
 }
 
-.codebox.spoiler dt {
+.template_body.codebox.spoiler dt {
   background: #fff;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -66,21 +68,21 @@
   border-radius: 20px;
 }
 
-.codebox.spoiler dd {
+.template_body.codebox.spoiler dd {
   background-color: none!important;
 }
 
-.codebox.spoiler dt span.genmed {
+.template_body.codebox.spoiler dt span.genmed {
   color: #000;
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
 }
 
-dd.spoiler_closed {
+.template_body.spoiler_closed {
   display: none;
 }
 
-.spoiler_content {
+.template_body.spoiler_content {
   background: #fff;
   color: #000;
   font-size: 1.2em;
