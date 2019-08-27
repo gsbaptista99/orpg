@@ -48,19 +48,19 @@
 
 /* Sobreescrita */
 
-.template_body.codebox {
+.template_body .codebox {
   width: 100%;
 }
 
-.template_body.codebox.spoiler {
+.template_body .codebox.spoiler {
   margin-bottom: 10px;
 }
 
-.template_body.codebox dd {
+.template_body .codebox dd {
   background: none;
 }
 
-.template_body.codebox.spoiler dt {
+.template_body .codebox.spoiler dt {
   background: #fff;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -68,21 +68,21 @@
   border-radius: 20px;
 }
 
-.template_body.codebox.spoiler dd {
+.template_body .codebox.spoiler dd {
   background-color: none!important;
 }
 
-.template_body.codebox.spoiler dt span.genmed {
+.template_body .codebox.spoiler dt span.genmed {
   color: #000;
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
 }
 
-.template_body.spoiler_closed {
+.template_body .spoiler_closed {
   display: none;
 }
 
-.template_body.spoiler_content {
+.template_body .spoiler_content {
   background: #fff;
   color: #000;
   font-size: 1.2em;
