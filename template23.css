@@ -107,6 +107,16 @@
     height: 100px;
 }
 
+.avatarCarta::after {
+    content: ' ';
+    display: block;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 3px 0 0 rgba(225, 131, 194, 0.25), 0 -3px 0 0 rgba(165, 181, 222, 0.25), 1px 0 0 0 rgba(225, 131, 194, 0.25), -3px 0 0 0 rgba(165, 181, 222, 0.25), 3px -3px 0 0 rgba(195, 156, 208, 0.5), -3px 3px 0 0 rgba(195, 156, 208, 0.5), 3px 3px 0 0 rgba(255, 105, 180, 0.75), -3px -3px 0 0 rgba(135, 206, 235, 0.75);
+    animation: rotateThis 1s linear infinite;
+}
+
 .atributos {
     width: 270px;
 }
@@ -214,4 +224,14 @@
 .objetivos_body .objetivos .cheked span:before {
     content: '✓';
     margin-right: 3px;
+}
+
+/* Animação */
+
+@keyframes rotateThis {
+  from {
+    transform: rotate(0deg) scale(1);
+  } to {
+    transform: rotate(360deg) scale(1);
+  }
 }
