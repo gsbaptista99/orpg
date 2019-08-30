@@ -48,7 +48,7 @@
 
 .legendas {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: 'Roboto', sans-serif;
   color: #fff;
   width: 300px;
