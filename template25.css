@@ -1,5 +1,7 @@
 /* Template */
+
 .template_body_background {
+  position: relative;
   background: #191919;
   width: 100%;
   height: 100%;
