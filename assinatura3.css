@@ -55,12 +55,15 @@
   margin: 20px auto 0px auto;
 }
 
+.legendas span {
+  display: flex;
+}
+
 .legenda {
   width: 15px;
   height: 15px;
   border: 1px solid #ccc;
-  margin-left: 10px;
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 .narracao {
