@@ -246,7 +246,7 @@
 
 .contador_postagem {
   position: absolute;
-  top: 0;
+  top: -8px;
   right: 15px;
   background: white;
   color: #000;
