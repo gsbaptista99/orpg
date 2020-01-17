@@ -1,5 +1,3 @@
-/** * **/
-
 .post_sjw_corpo {
     width: 90%;
     margin: 0 auto;
@@ -94,11 +92,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .post_sjw_avatar_info_img {
     border: 3px solid #cecece;
-    border-radius: 100%;
     width: 100px;
     height: 100px;
     background-image: url(https://i.imgur.com/O1EidBy.jpg);
@@ -106,7 +104,7 @@
     background-size: cover;
 }
 
-.post_sjw_info_primario {
+.post_sjw_info_primario, .post_sjw_info_secundario {
     width: 50%;
     display: flex;
     margin-left: 30px;
@@ -120,8 +118,14 @@
     margin-bottom: 3px;
 }
 
-.post_sjw_primario_esq, .post_sjw_primario_dir {
+.post_sjw_primario_esq, .post_sjw_primario_dir,
+.post_sjw_secundario_esq, .post_sjw_secundario_dir {
     width: 45%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.post_sjw_info_secundario {
+    width: 100%;
 }
