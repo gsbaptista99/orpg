@@ -1,6 +1,7 @@
+
 .ass_sjw {
     width: 350px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -54,7 +55,7 @@
 
 .ass_sjw_legendas {
     width: 350px;
-    margin: 60px auto;
+    margin: 60px auto 20px auto;
     display: flex;
     align-items: center;
     justify-content: center;
