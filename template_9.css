@@ -120,6 +120,10 @@
     margin-left: 5px;
 }
 
+.post_sjw_primario_esq span, .post_sjw_primario_dir span {
+    width: 90%;
+}
+
 .post_sjw_primario_esq, .post_sjw_primario_dir,
 .post_sjw_secundario_esq, .post_sjw_secundario_dir1,
 .post_sjw_secundario_dir2, .post_sjw_secundario_dir3 {
