@@ -38,7 +38,7 @@
 }
 
 .ass_sjw_links ul li a:hover {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 .ass_sjw_links ul li:hover {
