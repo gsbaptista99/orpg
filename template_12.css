@@ -154,3 +154,64 @@ span.sjw_title_info {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+/** **/
+.pos_sjw_his_ganhos::before, .pos_sjw_his_perdas::before, .pos_sjw_his_objetivos::before {
+    display: block;
+    background: #ceceec;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.pos_sjw_his_ganhos::before {
+    content: 'Ganhos';
+}
+
+.pos_sjw_his_perdas::before {
+    content: 'Perdas';
+}
+
+.pos_sjw_his_objetivos::before {
+    content: 'Objetivos';
+}
+
+.pos_sjw_his_ganhos, .pos_sjw_his_perdas, .pos_sjw_his_objetivos {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pos_sjw_his_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pos_sjw_his_list li {
+    background: #000;
+    padding: 5px 10px ;
+    color: #fff;
+    margin: 5px;
+}
+
+.pos_sjw_obj_list {
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.pos_sjw_obj_list_ok {
+    background: #fff;
+}
