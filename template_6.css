@@ -111,7 +111,9 @@
     justify-content: space-around;
 }
 
-.post_sjw_primario_esq span, .post_sjw_primario_dir span {
+.post_sjw_primario_esq span, .post_sjw_primario_dir span,
+.post_sjw_secundario_esq span, .post_sjw_secundario_dir1 span,
+.post_sjw_secundario_dir2 span, .post_sjw_secundario_dir3 span {
     background: #000;
     color: #fff;
     padding: 5px;
@@ -119,7 +121,8 @@
 }
 
 .post_sjw_primario_esq, .post_sjw_primario_dir,
-.post_sjw_secundario_esq, .post_sjw_secundario_dir {
+.post_sjw_secundario_esq, .post_sjw_secundario_dir1,
+.post_sjw_secundario_dir2, .post_sjw_secundario_dir3 {
     width: 45%;
     display: flex;
     flex-direction: column;
