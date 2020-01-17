@@ -1,0 +1,87 @@
+.ass_sjw {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ass_sjw_avatar {
+    background: url('https://i.imgur.com/I72AJX6.gif') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    transform: rotate(-45deg);
+}
+
+.ass_sjw_links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ass_sjw_links ul li {
+    background: #fff;
+    width: 150px;
+    padding: 5px 20px 5px 50px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    text-align: center;
+    transition: all .5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ass_sjw_links ul li a:visited, .ass_sjw_links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ass_sjw_links ul li a:hover {
+    text-decoration: none;
+}
+
+.ass_sjw_links ul li:hover {
+    background: #000;
+}
+
+.ass_sjw_links ul li:hover a {
+    color: #fff;
+}
+
+.ass_sjw_nome {
+    transform: rotate(45deg);
+}
+
+.ass_sjw_legendas {
+    width: 350px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
+
+.ass_sjw_box_narracao {
+    background: white;
+}
+
+.ass_sjw_box_fala {
+    background: #b785b7;
+}
+
+.ass_sjw_box_pensamento {
+    background: #85b794;
+}
+
+.ass_sjw_box {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-right: 5px;
+}
+
+.ass_sjw_fala_tipo {
+    margin-right: 15px;
+}
