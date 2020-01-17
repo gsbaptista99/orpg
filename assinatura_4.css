@@ -35,6 +35,9 @@
 .ass_sjw_links ul li a:visited, .ass_sjw_links ul li a {
     text-decoration: none;
     color: #000;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .ass_sjw_links ul li a:hover {
