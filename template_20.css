@@ -154,7 +154,7 @@ span.sjw_title_info {
 
 /** **/
 .pos_sjw_his_ganhos::before, .pos_sjw_his_perdas::before, .pos_sjw_his_objetivos::before, .post_sjw_vantagens::before,
-.post_sjw_desvantagens::before, .post_sjw_pericias::before, .pos_sjw_his_extra::before {
+.post_sjw_desvantagens::before, .post_sjw_pericias::before, .pos_sjw_his_extra_title::before {
     display: block;
     background: #cecece;
     color: #000;
@@ -173,6 +173,12 @@ span.sjw_title_info {
 
 .pos_sjw_his_extra_title::before {
     content: 'Extras';
+}
+
+.pos_sjw_his_extra {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .post_sjw_vantagens::before {
@@ -250,3 +256,28 @@ span.sjw_title_info {
     text-align: right;
     font-size: 12px;
 }
+
+.post_sjw_hp, .post_sjw_sp {
+    padding: 5px;
+    width: 45%;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+.post_sjw_hp {
+    background: #d24040;
+}
+
+.post_sjw_sp {
+    background: #4072d2;
+}
+
+.post_sjw_charInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
