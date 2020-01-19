@@ -103,12 +103,18 @@
     background-image: url(https://i.imgur.com/O1EidBy.jpg);
     background-position: center;
     background-size: cover;
+    margin-bottom: 10px;
 }
 
 .post_sjw_info_primario {
     width: 50%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.post_sjw_info_secundario {
+    width: 100%;
 }
 
 .post_sjw_primario_esq span, .post_sjw_primario_dir span {
@@ -147,7 +153,8 @@ span.sjw_title_info {
 }
 
 /** **/
-.pos_sjw_his_ganhos::before, .pos_sjw_his_perdas::before, .pos_sjw_his_objetivos::before {
+.pos_sjw_his_ganhos::before, .pos_sjw_his_perdas::before, .pos_sjw_his_objetivos::before, .post_sjw_vantagens::before,
+.post_sjw_desvantagens::before, .post_sjw_pericias::before{
     display: block;
     background: #cecece;
     color: #000;
@@ -162,6 +169,18 @@ span.sjw_title_info {
 
 .pos_sjw_his_ganhos::before {
     content: 'Ganhos';
+}
+
+.post_sjw_vantagens::before {
+    content: 'Vantagens';
+}
+
+.post_sjw_desvantagens::before {
+    content: 'Desvantagens';
+}
+
+.post_sjw_pericias::before {
+    content: 'Perícias';
 }
 
 .pos_sjw_his_perdas::before {
