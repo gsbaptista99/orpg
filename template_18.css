@@ -205,7 +205,8 @@ span.sjw_title_info {
     padding: 0;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    width: 90%;
+    margin: 0 auto 10px auto;
 }
 
 .pos_sjw_his_list li {
