@@ -263,14 +263,7 @@ span.sjw_title_info {
     color: #fff;
     display: inline-block;
     text-align: center;
-}
-
-.post_sjw_hp {
-    background: #d24040;
-}
-
-.post_sjw_sp {
-    background: #4072d2;
+    background: #000;
 }
 
 .post_sjw_charInfo {
