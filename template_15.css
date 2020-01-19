@@ -105,15 +105,13 @@
     background-size: cover;
 }
 
-.post_sjw_info_primario, .post_sjw_info_secundario {
+.post_sjw_info_primario {
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
 
-.post_sjw_primario_esq span, .post_sjw_primario_dir span,
-.post_sjw_secundario_esq span, .post_sjw_secundario_dir1 span,
-.post_sjw_secundario_dir2 span {
+.post_sjw_primario_esq span, .post_sjw_primario_dir span {
     background: #000;
     color: #fff;
     padding: 5px;
@@ -121,18 +119,11 @@
     margin-left: 5px;
 }
 
-.post_sjw_primario_esq, .post_sjw_primario_dir,
-.post_sjw_secundario_esq, .post_sjw_secundario_dir1,
-.post_sjw_secundario_dir2 {
+.post_sjw_primario_esq, .post_sjw_primario_dir {
     width: 45%;
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.post_sjw_info_secundario {
-    width: 82%;
-    margin-top: 10px;
 }
 
 span.sjw_title_info {
@@ -202,6 +193,8 @@ span.sjw_title_info {
     padding: 5px 10px ;
     color: #fff;
     margin: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .pos_sjw_obj_list {
