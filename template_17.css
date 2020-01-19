@@ -191,7 +191,8 @@ span.sjw_title_info {
     content: 'Objetivos';
 }
 
-.pos_sjw_his_ganhos, .pos_sjw_his_perdas, .pos_sjw_his_objetivos {
+.pos_sjw_his_ganhos, .pos_sjw_his_perdas, .pos_sjw_his_objetivos,
+.post_sjw_vantagens, .post_sjw_desvantagens, .post_sjw_pericias {
     width: 90%;
     margin: 0 auto;
 }
