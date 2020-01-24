@@ -1,3 +1,5 @@
+/** Template original **/
+
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&display=swap');
 
 .post_andL p {
@@ -65,5 +67,36 @@
     margin-bottom: 10px;
     font-size: 1.1em;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** Spoiler **/
+
+.post_andL .codebox.spoiler {
+    margin: 0;
+    padding: 6px;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.post_andL .codebox.spoiler .genmed {
+    color: #000;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.post_andL .codebox.spoiler .spoiler_closed {
+    display: none;
+}
+
+.post_andL .codebox.spoiler .spoiler_content {
+    background: #fff;
+    border: none;
+    color: #000;
+    font-size: 1em;
     font-family: 'Roboto', sans-serif;
 }
