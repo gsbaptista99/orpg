@@ -176,6 +176,16 @@
     justify-content: center;
 }
 
+.post_andL .lista li a {
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+.post_andL .lista li a:hover {
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
 .post_andL .lista li {
     padding: 8px 15px;
 }
