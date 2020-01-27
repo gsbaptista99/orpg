@@ -55,6 +55,10 @@
     font-family: 'Amatic SC', cursive!important;
 }
 
+.post_andL .topo::hover .titulo {
+    color: red!important;
+}
+
 .post_andL .barraPrincipal {
     padding: 10px;
     width: 100%;
