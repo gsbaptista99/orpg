@@ -52,11 +52,17 @@
 .post_andL .topo .titulo {
     padding: 10px;
     font-size: 2em;
+    position: absolute;
+    top: -20px;
+    color: transparent;
     font-family: 'Amatic SC', cursive!important;
+    transition: all .5s ease-in-out;
 }
 
-.post_andL .topo::hover .titulo {
-    color: red!important;
+.post_andL .topo:hover > .titulo {
+    color: #fff!important;
+    top: 80px!important;
+    opacity: .8;
 }
 
 .post_andL .barraPrincipal {
