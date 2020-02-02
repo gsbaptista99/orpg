@@ -162,13 +162,13 @@
     font-weight: bolder;
 }
 
-.post_andL .lista125, .post_andL .lista {
+.post_andL .lista122, .post_andL .lista {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.post_andL .lista125 li, .post_andL .lista li {
+.post_andL .lista122 li, .post_andL .lista li {
     background: #000;
     color: #fff;
     margin: 5px;
@@ -178,8 +178,8 @@
     justify-content: center;
 }
 
-.post_andL .lista125 li {
-    width: 125px;
+.post_andL .lista122 li {
+    width: 122px;
 }
 
 .post_andL .lista {
