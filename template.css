@@ -11,7 +11,6 @@
 .post_andL {
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
     padding: 30px;
     background: #191919;
     border: 3px solid #fff;
@@ -90,7 +89,7 @@
 
 .post_andL .conteudo p {
     margin-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
