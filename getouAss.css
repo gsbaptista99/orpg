@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 350px;
+    margin: 10px auto;
 }
 
 .okadaAss .links {
@@ -38,7 +39,7 @@
 }
 
 .okadaAss .shape {
-    background: url('getouAss.jpg') center;
+    background: url('https://i.postimg.cc/KYDTbWgz/getouAss.jpg') center;
     background-size: cover;
     animation: morph 8s ease-in-out infinite;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
